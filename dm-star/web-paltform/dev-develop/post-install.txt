@@ -1,0 +1,4 @@
+  * Modify your svfsvsvsvsvs config in <fg=green>.env</>
+
+  * Configure the <fg=green>driver</> (postgresql) and
+    <fg=green>server_version</> (15) in <fg=green>config/packages/doctrine.yaml</>
