@@ -8,7 +8,7 @@
           ]
         },
         "copy-from-recipe": {
-          "dm-star/web-platform/dev/config/": "%CONFIG_DIR%"
+          "web-platform/dev/config/": "%CONFIG_DIR%"
         },
         "post-install-output": [
           "  * You're ready to use dm-star/web-platform:dev",
@@ -19,7 +19,7 @@
         ]
       },
       "files": {
-        "config/packages/web_platform3.yaml": {
+        "config/web_platform3.yaml": {
           "contents": [
             "web_platform:",
             "    encode: true",
