@@ -1,8 +1,6 @@
 {
   "recipes": {
     "dm-it-star/web-platform": [
-      "0.1",
-      "dev-develop",
       "dev"
     ]
   },

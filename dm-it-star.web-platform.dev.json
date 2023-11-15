@@ -7,19 +7,19 @@
             "all"
           ]
         },
+        "copy-from-recipe": {
+          "dm-star/web-platform/dev/config/": "%CONFIG_DIR%"
+        },
         "post-install-output": [
-          "  * You're ready to use dm-star/web-platform:deve-develop",
+          "  * You're ready to use dm-star/web-platform:dev",
           "    1. Override your transport(s) in your <info>test</info> environment with <info>test://</info>",
           "    2. Use the <info>InteractsWithMessenger</info> trait in your \"kernel\" tests",
           "",
           "  * <fg=blue>Read</> the documentation at <comment>https://github.com/zenstruck/messenger-test#zenstruckmessenger-test</>"
-        ],
-        "copy-from-recipe": {
-          "dm-star/web-platform/dev-develop/config/": "%CONFIG_DIR%"
-        }
+        ]
       },
       "files": {
-        "config/packages/web_platform1.yaml": {
+        "config/packages/web_platform3.yaml": {
           "contents": [
             "web_platform:",
             "    encode: true",
@@ -28,7 +28,7 @@
           "executable": false
         }
       },
-      "ref": "28346957e7ac39203d74a8b3ce1f7e91d567fb44"
+      "ref": "0b80913f1de89d6d0989b361090fbcb26f3c11de"
     }
   }
 }
