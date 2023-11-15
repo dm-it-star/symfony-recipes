@@ -1,7 +1,8 @@
 {
   "recipes": {
     "dm-star/web-platform": [
-      "0.1"
+      "0.1",
+      "dev-develop"
     ]
   },
   "branch": "main",
