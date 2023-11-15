@@ -11,6 +11,6 @@
   "_links": {
     "repository": "github.com/dm-it-star/symfony-recipes",
     "origin_template": "{package}:{version}@github.com/dm-it-star/symfony-recipes:main",
-    "recipe_template": "https://api.github.com/repos/dm-it-star/symfony-recipes/contents/{package_dotted}/{version}/manifest.json"
+    "recipe_template": "https://api.github.com/repos/dm-it-star/symfony-recipes/contents/{package_dotted}.{version}.json"
   }
 }
