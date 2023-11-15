@@ -8,7 +8,7 @@
           ]
         },
         "post-install-output": [
-          "  * You're ready to use dm-star/web-platform:",
+          "  * You're ready to use dm-star/web-platform:dev",
           "    1. Override your transport(s) in your <info>test</info> environment with <info>test://</info>",
           "    2. Use the <info>InteractsWithMessenger</info> trait in your \"kernel\" tests",
           "",
@@ -16,7 +16,7 @@
         ]
       },
       "files": {
-        "config/packages/web_platform.yaml": {
+        "config/packages/web_platform3.yaml": {
           "contents": [
             "web_platform:",
             "    encode: true",
@@ -25,7 +25,7 @@
           "executable": false
         }
       },
-      "ref": "587b9aa8afe19fc507f70c31ccc5384a26ffbf35"
+      "ref": "0b80913f1de89d6d0989b361090fbcb26f3c11de"
     }
   }
 }
