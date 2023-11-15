@@ -1,0 +1,22 @@
+{
+  "recipes": {
+    "acme/private-bundle": [
+      "1.0"
+    ]
+  },
+  "branch": "main",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/your-github-account-name/your-recipes-repository",
+    "origin_template": "{package}:{version}@github.com/your-github-account-name/your-recipes-repository:main",
+    "recipe_template": "https://api.github.com/repos/your-github-account-name/your-recipes-repository/contents/{package_dotted}.{version}.json"
+  }
+//  "_links": {
+//    "repository": "github.com/symfony/recipes",
+//    "origin_template": "{package}:{version}@github.com/symfony/recipes:main",
+//    "recipe_template": "https://raw.githubusercontent.com/symfony/recipes/flex/main/{package_dotted}.{version}.json",
+//    "recipe_template_relative": "{package_dotted}.{version}.json",
+//    "archived_recipes_template": "https://raw.githubusercontent.com/symfony/recipes/flex/main/archived/{package_dotted}/{ref}.json",
+//    "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+//  }
+}
