@@ -1,9 +1,9 @@
 {
   "manifests": {
-    "dm-star/web-platform": {
+    "dm-it-star/web-platform": {
       "manifest": {
         "bundles": {
-          "DmStar\\WebPlatform\\WebPlatformBundle": [
+          "DmItStar\\WebPlatform\\WebPlatformBundle": [
             "all"
           ]
         },
